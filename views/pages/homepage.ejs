@@ -1,0 +1,146 @@
+<!--
+This is your default homepage.
+For more information, see:
+• https://sailsjs.com/documentation/concepts/views
+• https://sailsjs.com/documentation/concepts/routes
+-->
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+
+<script type="text/javascript">
+    setTimeout(function sunrise() {
+        document.getElementsByClassName('header')[0].style.backgroundColor = '#118798';
+    }, 0);
+</script>
+
+<% const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]; %>
+
+
+<% include common/header.ejs %>
+<% include common/sidebar.ejs %>
+
+<section class="content-body">
+    <header class="page-header">
+        <div class="page_title">
+            <h2>
+                <span class="heading_icon">
+                    <img alt="" src="/images/heading_icon_dash.png">
+                </span> Dashboard
+            </h2>
+        </div>
+
+    </header>
+    <div class="page_content">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card_widgit">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="media parent_widget">
+                                <figure class="mr-3">
+                                    <img src="/images/parent_white_icon.png" alt="">
+                                </figure>
+                                <div class="media-body">
+                                    <h2 class="mt-0">Parent Counts</h2>
+                                    <p>
+                                        <% if(counts){ %><%= counts.parentsCount %> <% } %>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="media students_widget">
+                                <figure class="mr-3">
+                                    <img src="/images/student_white_icon.png" alt="">
+                                </figure>
+                                <div class="media-body">
+                                    <h2 class="mt-0">Student Counts</h2>
+                                    <p><% if(counts){ %><%= counts.studentsCount %> <% } %></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="media trip_widget">
+                                <figure class="mr-3">
+                                    <img src="/images/trip_white_icon.png" alt="">
+                                </figure>
+                                <div class="media-body">
+                                    <h2 class="mt-0">Trips Counts</h2>
+                                    <p><% if(counts){ %><%= counts.tripsCount %> <% } %></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <section class="panel">
+                    <div class="panel-heading">
+                        <h2 class="panel-title">Trip Overview</h2>
+                    </div>
+                    <div class="panel-body p-0">
+                        <div class="table-responsive common_table">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Date</th>
+                                        <th>Due Time</th>
+                                        <th>TripId</th>
+                                        <th>Total Students</th>
+                                        <th>Supervisor Name</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    <% for(var i=0; i<tripsOverview.length; i++) { var date = new Date(tripsOverview[i].dueOn); %>
+                                    <tr>
+                                        <td><%= i+1 %></td>
+                                        <td><%=  date.getDate() + " " + monthNames[date.getMonth()]  %></td>
+                                        <td>8:00 AM</td>
+                                        <td><%= tripsOverview[i].tripId %></td>
+                                        <td><%= tripsOverview[i].studentsCount %></td>
+                                        <td><% if(tripsOverview[i].isSupervised == 1) { %>
+                                            <%= tripsOverview[i].fullName %> <% } %>
+                                            <% if(tripsOverview[i].isSupervised == 0) { %> <%= "--" %> <% } %>
+
+                                        </td>
+                                        <td>
+                                            <div class="action_btns">
+                                                <a href=<%= "/admin/tripdetail/" + tripsOverview[i].tripId %> class="text-primary">
+                                                    <i class="far fa-eye"></i>
+                                                </a>
+                                                <!-- <a href="javascript:;" class="text-success">
+                                                                    <i class="far fa-edit"></i>
+                                                                </a>
+                                                                <a href="javascript:;" class="text-danger">
+                                                                    <i class="far fa-trash-alt"></i>
+                                                                </a> -->
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <% } %>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+
+</div>
+</div>
+
+<!-- <script>
+    $(document).ready(function(){
+      $(".sidebar-toggle").click(function(){
+        $(".dashboard_body").toggleClass("body_collapse");
+      });
+    });
+</script> -->

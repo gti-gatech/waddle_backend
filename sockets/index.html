@@ -1,0 +1,231 @@
+<html>
+
+<head>
+    <title>Waddle</title>
+    <style>
+        code {
+            padding: 40px;
+            display: block;
+            background-color: #EFEFEF;
+            word-wrap: none;
+            color: black;
+        }
+    </style>
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+
+<script>
+
+    var socket = io("http://0.0.0.0:8000");
+
+    socket.on('connect', function () {
+        console.log("connected");
+    })
+
+
+    socket.on('tripStatusChanged', function (data) {
+        console.log(data);
+    });
+
+    socket.on('newMessageListener', function (data) {
+        console.log(data);
+    })
+
+    function updateLocation() {
+        socket.emit('updateLocation', {
+            parentId: "39d4044f-7e89-4893-bd7b-089fad730746",
+            longitude: "-84.350286",
+            latitude: "34.091172",
+            tripId: 129
+        });
+    }
+
+    function joinTripUpdates() {
+        socket.emit('joinTripUpdates', {
+            tripId: 137
+        });
+    }
+
+    function joinMessageUpdates() {
+        socket.emit('joinMessageUpdates', {
+            groupId: 2
+        })
+    }
+
+    function markPresent() {
+
+        socket.emit('markPresent', {
+            "studentId": 105,
+            "tripId": 137,
+        });
+    }
+
+    function addMessage() {
+        socket.emit('addMessage', {
+            groupId: 2,
+            parentId: "41eb6e1f-4465-4f05-b8c8-b154d800cd6c",
+            message: "Hello there"
+        })
+    }
+
+    function readMessage() {
+        socket.emit('readMessage', {
+            messageId: 45,
+            groupId: 2,
+            parentId: "b4ac54bf-b86a-4d2a-aea8-1a5533ea8c5f"
+        })
+    }
+
+
+
+</script>
+
+<body style="padding: 2%; background-color: white;">
+    </br>
+    <h1>Connections & Descriptions for Socket Controller</h1>
+    </br>
+    <h2>Connection Details</h2>
+    <h4>Socket Url: http://34.209.64.150:8000</h4>
+    <!-- <h5>transports: ['websocket'] (Not polling, passed on connection string)</h5></br> -->
+
+    <div>
+        <p><strong>CASE: JOIN TRIP UPDATES</strong> <button onclick="joinTripUpdates()">Join Trip Updates</button></p>
+        </br>
+        <p><strong>Emit eventName:</strong> joinTripUpdates </p>
+        <p><strong>Parameters:</strong> {</br>
+            tripId: 129</br>
+            }</p>
+        <p><strong>Code Usage:</strong></p>
+        <code>
+        socket.emit('joinTripUpdates', {</br>
+            tripId: 129</br>
+        });
+        </code>
+    </div></br>
+
+
+    <div>
+        <p><strong>CASE: UPDATE LOCATION</strong> <button onclick="updateLocation()">Update Location</button></p></br>
+        <p><strong>Emit eventName:</strong> updateLocation </p>
+        <p><strong>Parameters:</strong> {</br>
+            parentId: "39d4044f-7e89-4893-bd7b-089fad730746",</br>
+            longitude: "-84.350287",</br>
+            latitude: "34.091172"</br>
+            tripId: 129</br>
+            }</p>
+        <p><strong>Code Usage:</strong></p>
+        <code>
+            socket.emit('updateLocation', {</br>
+                parentId: "39d4044f-7e89-4893-bd7b-089fad730746",</br>
+                longitude: "-84.350287",</br>
+                latitude: "34.091172"</br>
+            });
+            </code>
+    </div></br>
+
+
+    <div>
+        <p><strong>CASE: MARK STUDENT PRESENT</strong> <button onclick="markPresent()">Mark student present</button></p>
+        </br>
+        <p><strong>Emit eventName:</strong> markPresent </p>
+        <p><strong>Parameters:</strong> {</br>
+            "studentId": 107,</br>
+            "tripId": 129,</br>
+            }</p>
+        <p><strong>Code Usage:</strong></p>
+        <code>
+            socket.emit('markPresent', {</br>
+                "studentId": 107,</br>
+                "tripId": 129</br>
+            });
+            </code>
+    </div></br>
+
+
+    <div>
+        <p><strong>CASE: LISTEN TRIP STATUS CHANGED</strong></p></br>
+        <p><strong>Listen event name:</strong> tripStatusChanged </p>
+        <p><strong>RESPONSE: Same as api key data TripMap</strong>
+        <p><strong>Code Usage:</strong></p>
+        <code>
+        socket.on('tripStatusChanged', function (data){</br>
+            console.log(data);</br>
+          });
+        </code>
+    </div></br>
+
+
+    <div>
+        <p><strong>CASE: JOIN MESSAGE UPDATES</strong> <button onclick="joinMessageUpdates()">Join Message
+                Updates</button></p></br>
+        <p><strong>Emit eventName:</strong> joinMessageUpdates </p>
+        <p><strong>Parameters:</strong> {</br>
+            groupId: 1</br>
+            }</p>
+        <p><strong>Code Usage:</strong></p>
+        <code>
+        socket.emit('joinMessageUpdates', {</br>
+            groupId: 1</br>
+        });
+        </code>
+    </div></br>
+
+
+    <div>
+        <p><strong>CASE: SEND MESSAGE</strong> <button onclick="addMessage()">Add Message</button></p></br>
+        <p><strong>Emit eventName:</strong> addMessage </p>
+        <p><strong>Parameters:</strong> { </br>
+            groupId: 1, </br>
+            parentId: "39d4044f-7e89-4893-bd7b-089fad730746", </br>
+            message: "New message sent!" </br>
+            }</p>
+        <p><strong>Code Usage:</strong></p>
+        <code>
+        socket.emit('addMessage', { </br>
+            groupId: 1, </br>
+            parentId: "39d4044f-7e89-4893-bd7b-089fad730746", </br>
+            message: "New message sent!" </br>
+        });
+        </code>
+    </div></br>
+
+    <div>
+        <p><strong>CASE: LISTEN NEW MESSAGE ADDED</strong></p></br>
+        <p><strong>Listen event name:</strong> newMessageListener </p>
+        <p><strong>RESPONSE: </strong>{</br>
+            id: 11,</br>
+            groupId: 1,</br>
+            senderId: '39d4044f-7e89-4893-bd7b-089fad730746',</br>
+            message: 'New message sent!',</br>
+            status: 'DELIVERED',</br>
+            createdOn: '2020-08-17T10:13:38.000Z'</br>
+            }
+        <p><strong>Code Usage:</strong></p>
+        <code>
+        socket.on('newMessageListener', function (data){</br>
+            console.log(data);</br>
+          });
+        </code>
+    </div></br>
+
+    <div>
+        <p><strong>CASE: READ MESSAGE</strong> <button onclick="readMessage()">Read Message</button></p></br>
+        <p><strong>Emit eventName:</strong> readMessage </p>
+        <p><strong>Parameters:</strong> { </br>
+            groupId: 1, </br>
+            parentId: "39d4044f-7e89-4893-bd7b-089fad730746", </br>
+            messageId: 45 </br>
+            }</p>
+        <p><strong>Code Usage:</strong></p>
+        <code>
+        socket.emit('readMessage', { </br>
+            groupId: 1, </br>
+            parentId: "39d4044f-7e89-4893-bd7b-089fad730746", </br>
+            messageId: 45 </br>
+        });
+        </code>
+    </div></br>
+
+</body>
+
+</html>

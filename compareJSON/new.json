@@ -1,0 +1,2370 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.351978,
+                    34.089545,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R3 Morningpark Cir",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -84.348999,
+                        34.089735,
+                        0
+                    ],
+                    [
+                        -84.348125,
+                        34.089752,
+                        0
+                    ],
+                    [
+                        -84.347921,
+                        34.090156,
+                        0
+                    ],
+                    [
+                        -84.347552,
+                        34.090283,
+                        0
+                    ],
+                    [
+                        -84.34672,
+                        34.09024,
+                        0
+                    ],
+                    [
+                        -84.345801,
+                        34.09015,
+                        0
+                    ],
+                    [
+                        -84.345566,
+                        34.090196,
+                        0
+                    ],
+                    [
+                        -84.345563,
+                        34.091153,
+                        0
+                    ],
+                    [
+                        -84.343469,
+                        34.091296,
+                        0
+                    ],
+                    [
+                        -84.341872,
+                        34.091357,
+                        0
+                    ],
+                    [
+                        -84.341499,
+                        34.091054,
+                        0
+                    ],
+                    [
+                        -84.34132,
+                        34.091523,
+                        0
+                    ],
+                    [
+                        -84.340716,
+                        34.091789,
+                        0
+                    ],
+                    [
+                        -84.340196,
+                        34.091763,
+                        0
+                    ],
+                    [
+                        -84.339741,
+                        34.091754,
+                        0
+                    ],
+                    [
+                        -84.339506,
+                        34.091711,
+                        0
+                    ],
+                    [
+                        -84.339551,
+                        34.092308,
+                        0
+                    ],
+                    [
+                        -84.339562,
+                        34.09329,
+                        0
+                    ],
+                    [
+                        -84.339521,
+                        34.093678,
+                        0
+                    ],
+                    [
+                        -84.338965,
+                        34.093572,
+                        0
+                    ],
+                    [
+                        -84.338396,
+                        34.093434,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "R1",
+                "styleUrl": "#line-FFD600-13000",
+                "styleHash": "39d18665",
+                "styleMapHash": {
+                    "normal": "#line-FFD600-13000-normal",
+                    "highlight": "#line-FFD600-13000-highlight"
+                },
+                "description": "description: \ntessellate: 1\nextrude: 0\nvisibility: -1",
+                "stroke": "#ffd600",
+                "stroke-opacity": 1,
+                "stroke-width": 13,
+                "tessellate": "1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -84.350224,
+                        34.091206,
+                        0
+                    ],
+                    [
+                        -84.350221,
+                        34.092478,
+                        0
+                    ],
+                    [
+                        -84.350006,
+                        34.093143,
+                        0
+                    ],
+                    [
+                        -84.349517,
+                        34.093749,
+                        0
+                    ],
+                    [
+                        -84.348362,
+                        34.093115,
+                        0
+                    ],
+                    [
+                        -84.347114,
+                        34.093037,
+                        0
+                    ],
+                    [
+                        -84.345241,
+                        34.093054,
+                        0
+                    ],
+                    [
+                        -84.344013,
+                        34.093039,
+                        0
+                    ],
+                    [
+                        -84.343394,
+                        34.09298,
+                        0
+                    ],
+                    [
+                        -84.342877,
+                        34.092813,
+                        0
+                    ],
+                    [
+                        -84.342005,
+                        34.092179,
+                        0
+                    ],
+                    [
+                        -84.341545,
+                        34.092023,
+                        0
+                    ],
+                    [
+                        -84.340637,
+                        34.09183,
+                        0
+                    ],
+                    [
+                        -84.339462,
+                        34.091833,
+                        0
+                    ],
+                    [
+                        -84.339464,
+                        34.093359,
+                        0
+                    ],
+                    [
+                        -84.339449,
+                        34.093509,
+                        0
+                    ],
+                    [
+                        -84.339232,
+                        34.093547,
+                        0
+                    ],
+                    [
+                        -84.338695,
+                        34.093452,
+                        0
+                    ],
+                    [
+                        -84.338411,
+                        34.093317,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "R2",
+                "styleUrl": "#line-0288D1-10000",
+                "styleHash": "-29fc1c5b",
+                "styleMapHash": {
+                    "normal": "#line-0288D1-10000-normal",
+                    "highlight": "#line-0288D1-10000-highlight"
+                },
+                "description": "description: \ntessellate: 1\nextrude: 0\nvisibility: -1",
+                "stroke": "#0288d1",
+                "stroke-opacity": 1,
+                "stroke-width": 10,
+                "tessellate": "1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -84.351952,
+                        34.089572,
+                        0
+                    ],
+                    [
+                        -84.351913,
+                        34.088732,
+                        0
+                    ],
+                    [
+                        -84.352257,
+                        34.088473,
+                        0
+                    ],
+                    [
+                        -84.352822,
+                        34.08844,
+                        0
+                    ],
+                    [
+                        -84.353456,
+                        34.088862,
+                        0
+                    ],
+                    [
+                        -84.353795,
+                        34.08898,
+                        0
+                    ],
+                    [
+                        -84.354058,
+                        34.088545,
+                        0
+                    ],
+                    [
+                        -84.354231,
+                        34.088202,
+                        0
+                    ],
+                    [
+                        -84.35406,
+                        34.087568,
+                        0
+                    ],
+                    [
+                        -84.352874,
+                        34.087726,
+                        0
+                    ],
+                    [
+                        -84.351993,
+                        34.087859,
+                        0
+                    ],
+                    [
+                        -84.351715,
+                        34.087662,
+                        0
+                    ],
+                    [
+                        -84.350807,
+                        34.088006,
+                        0
+                    ],
+                    [
+                        -84.349677,
+                        34.088462,
+                        0
+                    ],
+                    [
+                        -84.348678,
+                        34.088723,
+                        0
+                    ],
+                    [
+                        -84.348071,
+                        34.088795,
+                        0
+                    ],
+                    [
+                        -84.347064,
+                        34.088741,
+                        0
+                    ],
+                    [
+                        -84.345577,
+                        34.088731,
+                        0
+                    ],
+                    [
+                        -84.344652,
+                        34.088964,
+                        0
+                    ],
+                    [
+                        -84.344203,
+                        34.089621,
+                        0
+                    ],
+                    [
+                        -84.342127,
+                        34.090238,
+                        0
+                    ],
+                    [
+                        -84.341758,
+                        34.090639,
+                        0
+                    ],
+                    [
+                        -84.341522,
+                        34.091257,
+                        0
+                    ],
+                    [
+                        -84.340939,
+                        34.091736,
+                        0
+                    ],
+                    [
+                        -84.340262,
+                        34.091753,
+                        0
+                    ],
+                    [
+                        -84.339365,
+                        34.091788,
+                        0
+                    ],
+                    [
+                        -84.339348,
+                        34.093476,
+                        0
+                    ],
+                    [
+                        -84.338962,
+                        34.093414,
+                        0
+                    ],
+                    [
+                        -84.338356,
+                        34.093197,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "R3",
+                "styleUrl": "#line-E65100-12000",
+                "styleHash": "-6f80c65b",
+                "styleMapHash": {
+                    "normal": "#line-E65100-12000-normal",
+                    "highlight": "#line-E65100-12000-highlight"
+                },
+                "description": "description: \ntessellate: 1\nextrude: 0\nvisibility: -1",
+                "stroke": "#e65100",
+                "stroke-opacity": 1,
+                "stroke-width": 12,
+                "tessellate": "1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -84.339671,
+                        34.080163,
+                        0
+                    ],
+                    [
+                        -84.339477,
+                        34.081496,
+                        0
+                    ],
+                    [
+                        -84.339464,
+                        34.082824,
+                        0
+                    ],
+                    [
+                        -84.339524,
+                        34.085083,
+                        0
+                    ],
+                    [
+                        -84.339481,
+                        34.090056,
+                        0
+                    ],
+                    [
+                        -84.339272,
+                        34.093249,
+                        0
+                    ],
+                    [
+                        -84.339181,
+                        34.093345,
+                        0
+                    ],
+                    [
+                        -84.33846,
+                        34.093124,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "R4",
+                "styleUrl": "#line-006064-15000",
+                "styleHash": "-539cb17b",
+                "styleMapHash": {
+                    "normal": "#line-006064-15000-normal",
+                    "highlight": "#line-006064-15000-highlight"
+                },
+                "description": "description: \ntessellate: 1\nextrude: 0\nvisibility: -1",
+                "stroke": "#006064",
+                "stroke-opacity": 1,
+                "stroke-width": 15,
+                "tessellate": "1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -84.350473,
+                        34.101061,
+                        0
+                    ],
+                    [
+                        -84.349657,
+                        34.100919,
+                        0
+                    ],
+                    [
+                        -84.349056,
+                        34.100634,
+                        0
+                    ],
+                    [
+                        -84.348756,
+                        34.100279,
+                        0
+                    ],
+                    [
+                        -84.348542,
+                        34.099711,
+                        0
+                    ],
+                    [
+                        -84.348026,
+                        34.099426,
+                        0
+                    ],
+                    [
+                        -84.346181,
+                        34.099391,
+                        0
+                    ],
+                    [
+                        -84.345452,
+                        34.099178,
+                        0
+                    ],
+                    [
+                        -84.344701,
+                        34.099302,
+                        0
+                    ],
+                    [
+                        -84.344293,
+                        34.099231,
+                        0
+                    ],
+                    [
+                        -84.344078,
+                        34.099426,
+                        0
+                    ],
+                    [
+                        -84.342083,
+                        34.099426,
+                        0
+                    ],
+                    [
+                        -84.340237,
+                        34.099391,
+                        0
+                    ],
+                    [
+                        -84.340023,
+                        34.099906,
+                        0
+                    ],
+                    [
+                        -84.339379,
+                        34.100066,
+                        0
+                    ],
+                    [
+                        -84.3394,
+                        34.093811,
+                        0
+                    ],
+                    [
+                        -84.338414,
+                        34.093545,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "R5",
+                "styleUrl": "#line-B2EBF2-10000",
+                "styleHash": "-7a6f03b",
+                "styleMapHash": {
+                    "normal": "#line-B2EBF2-10000-normal",
+                    "highlight": "#line-B2EBF2-10000-highlight"
+                },
+                "description": "description: \ntessellate: 1\nextrude: 0\nvisibility: -1",
+                "stroke": "#b2ebf2",
+                "stroke-opacity": 1,
+                "stroke-width": 10,
+                "tessellate": "1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -84.351054,
+                        34.096424,
+                        0
+                    ],
+                    [
+                        -84.349896,
+                        34.095908,
+                        0
+                    ],
+                    [
+                        -84.349187,
+                        34.096033,
+                        0
+                    ],
+                    [
+                        -84.348415,
+                        34.096921,
+                        0
+                    ],
+                    [
+                        -84.347943,
+                        34.09765,
+                        0
+                    ],
+                    [
+                        -84.347063,
+                        34.097685,
+                        0
+                    ],
+                    [
+                        -84.346098,
+                        34.097365,
+                        0
+                    ],
+                    [
+                        -84.345025,
+                        34.09765,
+                        0
+                    ],
+                    [
+                        -84.34408,
+                        34.09733,
+                        0
+                    ],
+                    [
+                        -84.343179,
+                        34.097099,
+                        0
+                    ],
+                    [
+                        -84.342364,
+                        34.097152,
+                        0
+                    ],
+                    [
+                        -84.339596,
+                        34.096761,
+                        0
+                    ],
+                    [
+                        -84.339145,
+                        34.096708,
+                        0
+                    ],
+                    [
+                        -84.339252,
+                        34.093989,
+                        0
+                    ],
+                    [
+                        -84.338373,
+                        34.093652,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "R6 ES",
+                "styleUrl": "#line-9C27B0-12000",
+                "styleHash": "-352366bb",
+                "styleMapHash": {
+                    "normal": "#line-9C27B0-12000-normal",
+                    "highlight": "#line-9C27B0-12000-highlight"
+                },
+                "description": "description: \ntessellate: 1\nextrude: 0\nvisibility: -1",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 12,
+                "tessellate": "1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -84.351054,
+                        34.096424,
+                        0
+                    ],
+                    [
+                        -84.349896,
+                        34.095908,
+                        0
+                    ],
+                    [
+                        -84.349187,
+                        34.096033,
+                        0
+                    ],
+                    [
+                        -84.348415,
+                        34.096921,
+                        0
+                    ],
+                    [
+                        -84.347943,
+                        34.09765,
+                        0
+                    ],
+                    [
+                        -84.347063,
+                        34.097685,
+                        0
+                    ],
+                    [
+                        -84.346098,
+                        34.097365,
+                        0
+                    ],
+                    [
+                        -84.345025,
+                        34.09765,
+                        0
+                    ],
+                    [
+                        -84.34408,
+                        34.09733,
+                        0
+                    ],
+                    [
+                        -84.343179,
+                        34.097099,
+                        0
+                    ],
+                    [
+                        -84.342364,
+                        34.097152,
+                        0
+                    ],
+                    [
+                        -84.339596,
+                        34.096761,
+                        0
+                    ],
+                    [
+                        -84.339145,
+                        34.096708,
+                        0
+                    ],
+                    [
+                        -84.339252,
+                        34.093989,
+                        0
+                    ],
+                    [
+                        -84.338373,
+                        34.093652,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "R6 MS",
+                "styleUrl": "#line-9C27B0-12000",
+                "styleHash": "-352366bb",
+                "styleMapHash": {
+                    "normal": "#line-9C27B0-12000-normal",
+                    "highlight": "#line-9C27B0-12000-highlight"
+                },
+                "description": "description: \ntessellate: 1\nextrude: 0\nvisibility: -1",
+                "stroke": "#9c27b0",
+                "stroke-opacity": 1,
+                "stroke-width": 12,
+                "tessellate": "1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -84.326177,
+                        34.095759,
+                        0
+                    ],
+                    [
+                        -84.3263,
+                        34.09409,
+                        0
+                    ],
+                    [
+                        -84.328654,
+                        34.094166,
+                        0
+                    ],
+                    [
+                        -84.32976,
+                        34.094204,
+                        0
+                    ],
+                    [
+                        -84.329982,
+                        34.0944,
+                        0
+                    ],
+                    [
+                        -84.329937,
+                        34.095676,
+                        0
+                    ],
+                    [
+                        -84.329953,
+                        34.095912,
+                        0
+                    ],
+                    [
+                        -84.330443,
+                        34.095833,
+                        0
+                    ],
+                    [
+                        -84.33062,
+                        34.097541,
+                        0
+                    ],
+                    [
+                        -84.33122,
+                        34.097527,
+                        0
+                    ],
+                    [
+                        -84.331993,
+                        34.096948,
+                        0
+                    ],
+                    [
+                        -84.332752,
+                        34.096868,
+                        0
+                    ],
+                    [
+                        -84.334048,
+                        34.09726,
+                        0
+                    ],
+                    [
+                        -84.335264,
+                        34.097206,
+                        0
+                    ],
+                    [
+                        -84.336229,
+                        34.097376,
+                        0
+                    ],
+                    [
+                        -84.337129,
+                        34.097414,
+                        0
+                    ],
+                    [
+                        -84.33904,
+                        34.096794,
+                        0
+                    ],
+                    [
+                        -84.339303,
+                        34.09398,
+                        0
+                    ],
+                    [
+                        -84.338228,
+                        34.093745,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "R7",
+                "styleUrl": "#line-BCAAA4-10000",
+                "styleHash": "212f7a85",
+                "styleMapHash": {
+                    "normal": "#line-BCAAA4-10000-normal",
+                    "highlight": "#line-BCAAA4-10000-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "stroke": "#bcaaa4",
+                "stroke-opacity": 1,
+                "stroke-width": 10,
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -84.344882,
+                        34.083549,
+                        0
+                    ],
+                    [
+                        -84.344195,
+                        34.083938,
+                        0
+                    ],
+                    [
+                        -84.343817,
+                        34.084142,
+                        0
+                    ],
+                    [
+                        -84.343534,
+                        34.084681,
+                        0
+                    ],
+                    [
+                        -84.343835,
+                        34.085298,
+                        0
+                    ],
+                    [
+                        -84.344128,
+                        34.08585,
+                        0
+                    ],
+                    [
+                        -84.344075,
+                        34.086724,
+                        0
+                    ],
+                    [
+                        -84.344155,
+                        34.087013,
+                        0
+                    ],
+                    [
+                        -84.344629,
+                        34.087427,
+                        0
+                    ],
+                    [
+                        -84.34497,
+                        34.087781,
+                        0
+                    ],
+                    [
+                        -84.344473,
+                        34.088216,
+                        0
+                    ],
+                    [
+                        -84.34445,
+                        34.088709,
+                        0
+                    ],
+                    [
+                        -84.343503,
+                        34.088986,
+                        0
+                    ],
+                    [
+                        -84.342911,
+                        34.089171,
+                        0
+                    ],
+                    [
+                        -84.343126,
+                        34.089841,
+                        0
+                    ],
+                    [
+                        -84.342265,
+                        34.090131,
+                        0
+                    ],
+                    [
+                        -84.341831,
+                        34.090454,
+                        0
+                    ],
+                    [
+                        -84.34143,
+                        34.091348,
+                        0
+                    ],
+                    [
+                        -84.34076,
+                        34.091763,
+                        0
+                    ],
+                    [
+                        -84.339519,
+                        34.091745,
+                        0
+                    ],
+                    [
+                        -84.339275,
+                        34.091752,
+                        0
+                    ],
+                    [
+                        -84.339127,
+                        34.093218,
+                        0
+                    ],
+                    [
+                        -84.338724,
+                        34.093133,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "R8",
+                "styleUrl": "#line-EDA29B-13000",
+                "styleHash": "366265a5",
+                "styleMapHash": {
+                    "normal": "#line-EDA29B-13000-normal",
+                    "highlight": "#line-EDA29B-13000-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "stroke": "#eda29b",
+                "stroke-opacity": 1,
+                "stroke-width": 13,
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -84.334185,
+                        34.090644,
+                        0
+                    ],
+                    [
+                        -84.333716,
+                        34.090292,
+                        0
+                    ],
+                    [
+                        -84.333545,
+                        34.089839,
+                        0
+                    ],
+                    [
+                        -84.333159,
+                        34.089662,
+                        0
+                    ],
+                    [
+                        -84.333051,
+                        34.089413,
+                        0
+                    ],
+                    [
+                        -84.332676,
+                        34.089457,
+                        0
+                    ],
+                    [
+                        -84.332129,
+                        34.089226,
+                        0
+                    ],
+                    [
+                        -84.332075,
+                        34.088764,
+                        0
+                    ],
+                    [
+                        -84.332214,
+                        34.088409,
+                        0
+                    ],
+                    [
+                        -84.332794,
+                        34.08808,
+                        0
+                    ],
+                    [
+                        -84.333159,
+                        34.087734,
+                        0
+                    ],
+                    [
+                        -84.333137,
+                        34.087476,
+                        0
+                    ],
+                    [
+                        -84.334843,
+                        34.087627,
+                        0
+                    ],
+                    [
+                        -84.336077,
+                        34.090754,
+                        0
+                    ],
+                    [
+                        -84.336238,
+                        34.09127,
+                        0
+                    ],
+                    [
+                        -84.336528,
+                        34.091696,
+                        0
+                    ],
+                    [
+                        -84.339275,
+                        34.091752,
+                        0
+                    ],
+                    [
+                        -84.339272,
+                        34.093249,
+                        0
+                    ],
+                    [
+                        -84.338212,
+                        34.093251,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "R9",
+                "styleUrl": "#line-000000-2000",
+                "styleHash": "7fafdf79",
+                "styleMapHash": {
+                    "normal": "#line-000000-2000-normal",
+                    "highlight": "#line-000000-2000-highlight"
+                },
+                "description": "description: \ntessellate: \nextrude: \nvisibility:",
+                "stroke": "#000000",
+                "stroke-opacity": 1,
+                "stroke-width": 2,
+                "tessellate": "",
+                "extrude": "",
+                "visibility": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.353861,
+                    34.08894,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R3 Waterside Dr and Morningpark Cir",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.343864,
+                    34.089737,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R3 Branyan Trail and Heritage Walk",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: \nextrude: \nvisibility:",
+                "tessellate": "",
+                "extrude": "",
+                "visibility": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.344756,
+                    34.088747,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R3 R8 Branyan Trail and Crabapple Rd",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.339656,
+                    34.080152,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R4 Broadwell Rd and Beragio Pl",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.33954,
+                    34.083373,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R4 Broadwell Rd and Stuart Dr",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.339516,
+                    34.087275,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R4 Broadwell Rd and Dorsland Wy",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.349016,
+                    34.08973,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R1 Lecoma Trace & Saybeck Way",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.345649,
+                    34.090087,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R1 Branyan Trail & Tensas Trace",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.343459,
+                    34.091227,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R1 Lecoma Trace & Itaska Walk",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.350287,
+                    34.091172,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R2 Sauls Pl and Lee St",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.349549,
+                    34.09373,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R2 Sauls Pl and Nakomis Pl",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.34403,
+                    34.093045,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R2 Heybridge Ln & McFarlin Ln 2",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.34187,
+                    34.092101,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R2 McFarlin Ln and Crapapple Cir 2",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.340426,
+                    34.09179,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R1 R2 R3 R8 Parkstead Ln & McFarlin Ln 2",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.34489,
+                    34.083562,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R8 Crabapple Chase and Crabapple Meadow Wy",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.343549,
+                    34.084642,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R8 Sherman Oaks Wy and Crabapple Meadow Wy",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.344089,
+                    34.085745,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R8 Celestial Wy and Crabapple Meadow Wy",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.34286,
+                    34.089141,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R8 Itaska Walk and Crabapple Rd",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.343153,
+                    34.089903,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R3 R8 Itaska Walk and Heritage Walk",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.349209,
+                    34.08858,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R3 Arbor North Dr and Crabapple Rd",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.345565,
+                    34.091214,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R1 Lecoma Trace and Tensas Trace",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.326181,
+                    34.09592,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R7 Mayfield Rd and Bethany Rd",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.326896,
+                    34.094158,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R7 Wellington Pl and Ruths Farm Wy",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.328066,
+                    34.094137,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R7 Brandywine Trail and Ruths Farm Wy",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.350964,
+                    34.096398,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R6 Petersford Wy and Kensington Farms Dr",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.348461,
+                    34.096902,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R6 Cannongate Ct and Kensington Farms Dr",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.349486,
+                    34.09594,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R6 Croyton Terrace and Kensington Farms Dr",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.342291,
+                    34.097147,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R6 Berkshire Ln and Kensington Farms Dr",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.340474,
+                    34.096867,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R6 Wynstead Ct and Kensington Farms Dr",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.350374,
+                    34.101118,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R5 6 Hills Ln and Owens Lake Rd",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.344346,
+                    34.099234,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R5 Old Cedar Ln Roundabout",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.340121,
+                    34.099911,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R5 Owens Farm Rd and Old Cedar Ln",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.348766,
+                    34.093339,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R2 Lee St and Nakomis Pl",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.348342,
+                    34.093081,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R2 Nakomis Place and McFariln Ln",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.34524,
+                    34.093019,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R2 Heybridge Ln and McFarlin Ln 1",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.343615,
+                    34.09299,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R2 Itaska Walk and McFarlin Ln",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.34262,
+                    34.09262,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R2 McFarlin Ln and Crabapple Cir 1",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.340808,
+                    34.091789,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R1 R2 R3 R8 Parkstead Ln and McFarlin Ln 1",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.341549,
+                    34.091099,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R1 R2 R8 Lecoma Trace and Heritage Walk",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.344982,
+                    34.087791,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R8 Crabapple Chase Dr and Crabapple Meadow Wy",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.339421,
+                    34.081626,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R4 Beragio Dr and Broadwll Rd",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.339509,
+                    34.085467,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R4 McCaus Lane and Broadwell Road",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.339481,
+                    34.086265,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R4 Dunbrody Lane and Broadwell Road",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.339443,
+                    34.088299,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R4 Marstrow Dr and Broadwell Rd",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.339477,
+                    34.090082,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R4 Birmingham Highway and Crabapple Road",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: -1\nextrude: 0\nvisibility: -1",
+                "tessellate": "-1",
+                "extrude": "0",
+                "visibility": "-1"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.348125,
+                    34.089752,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R1 Saybeck Way and Branyan Trail",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: \nextrude: \nvisibility:",
+                "tessellate": "",
+                "extrude": "",
+                "visibility": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.347776,
+                    34.090244,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R1 Branyan Trail 1",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: \nextrude: \nvisibility:",
+                "tessellate": "",
+                "extrude": "",
+                "visibility": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.346738,
+                    34.090257,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R1 Branyan Trail 2",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: \nextrude: \nvisibility:",
+                "tessellate": "",
+                "extrude": "",
+                "visibility": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.33939,
+                    34.091791,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R1 R2 R3 R4 R8 R9 Heritage Walk and Birmingham Hwy",
+                "styleUrl": "#icon-1899-0288D1",
+                "styleHash": "1d722795",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-normal",
+                    "highlight": "#icon-1899-0288D1-highlight"
+                },
+                "description": "description: \ntessellate: \nextrude: \nvisibility:",
+                "tessellate": "",
+                "extrude": "",
+                "visibility": ""
+            }
+        }
+    ]
+}

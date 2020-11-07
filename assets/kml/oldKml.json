@@ -1,0 +1,770 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -84.351952,
+                        34.089572,
+                        0
+                    ],
+                    [
+                        -84.351913,
+                        34.088732,
+                        0
+                    ],
+                    [
+                        -84.352257,
+                        34.088473,
+                        0
+                    ],
+                    [
+                        -84.352822,
+                        34.08844,
+                        0
+                    ],
+                    [
+                        -84.353456,
+                        34.088862,
+                        0
+                    ],
+                    [
+                        -84.353795,
+                        34.08898,
+                        0
+                    ],
+                    [
+                        -84.354058,
+                        34.088545,
+                        0
+                    ],
+                    [
+                        -84.354231,
+                        34.088202,
+                        0
+                    ],
+                    [
+                        -84.35406,
+                        34.087568,
+                        0
+                    ],
+                    [
+                        -84.352874,
+                        34.087726,
+                        0
+                    ],
+                    [
+                        -84.351993,
+                        34.087859,
+                        0
+                    ],
+                    [
+                        -84.351715,
+                        34.087662,
+                        0
+                    ],
+                    [
+                        -84.350807,
+                        34.088006,
+                        0
+                    ],
+                    [
+                        -84.349677,
+                        34.088462,
+                        0
+                    ],
+                    [
+                        -84.348678,
+                        34.088723,
+                        0
+                    ],
+                    [
+                        -84.348071,
+                        34.088795,
+                        0
+                    ],
+                    [
+                        -84.347064,
+                        34.088741,
+                        0
+                    ],
+                    [
+                        -84.345577,
+                        34.088731,
+                        0
+                    ],
+                    [
+                        -84.3446518,
+                        34.0889639,
+                        0
+                    ],
+                    [
+                        -84.3442027,
+                        34.0896213,
+                        0
+                    ],
+                    [
+                        -84.3421272,
+                        34.0902375,
+                        0
+                    ],
+                    [
+                        -84.3417582,
+                        34.090639,
+                        0
+                    ],
+                    [
+                        -84.341522,
+                        34.0912574,
+                        0
+                    ],
+                    [
+                        -84.3409393,
+                        34.0917359,
+                        0
+                    ],
+                    [
+                        -84.3402617,
+                        34.091753,
+                        0
+                    ],
+                    [
+                        -84.339365,
+                        34.0917882,
+                        0
+                    ],
+                    [
+                        -84.339348,
+                        34.093476,
+                        0
+                    ],
+                    [
+                        -84.338962,
+                        34.093414,
+                        0
+                    ],
+                    [
+                        -84.338356,
+                        34.093197,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "R3",
+                "styleUrl": "#line-FF00F7-4000-nodesc",
+                "styleHash": "73668717",
+                "styleMapHash": {
+                    "normal": "#line-FF00F7-4000-nodesc-normal",
+                    "highlight": "#line-FF00F7-4000-nodesc-highlight"
+                },
+                "stroke": "#ff00f7",
+                "stroke-opacity": 1,
+                "stroke-width": 4
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.351978,
+                    34.089545,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "R3 Morningpark Cir",
+                "styleUrl": "#icon-1899-DB4436-nodesc",
+                "styleHash": "-2ec27268",
+                "styleMapHash": {
+                    "normal": "#icon-1899-DB4436-nodesc-normal",
+                    "highlight": "#icon-1899-DB4436-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.353861,
+                    34.08894,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Waterside Dr & Morningpark Cir",
+                "styleUrl": "#icon-1899-DB4436-nodesc",
+                "styleHash": "-2ec27268",
+                "styleMapHash": {
+                    "normal": "#icon-1899-DB4436-nodesc-normal",
+                    "highlight": "#icon-1899-DB4436-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.3447557,
+                    34.0887472,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Branyan Trail & Crabapple Rd",
+                "styleUrl": "#icon-1899-DB4436-nodesc",
+                "styleHash": "-2ec27268",
+                "styleMapHash": {
+                    "normal": "#icon-1899-DB4436-nodesc-normal",
+                    "highlight": "#icon-1899-DB4436-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -84.339671,
+                        34.080163,
+                        0
+                    ],
+                    [
+                        -84.339477,
+                        34.081496,
+                        0
+                    ],
+                    [
+                        -84.339464,
+                        34.082824,
+                        0
+                    ],
+                    [
+                        -84.339524,
+                        34.085083,
+                        0
+                    ],
+                    [
+                        -84.339481,
+                        34.090056,
+                        0
+                    ],
+                    [
+                        -84.339272,
+                        34.093249,
+                        0
+                    ],
+                    [
+                        -84.339181,
+                        34.093345,
+                        0
+                    ],
+                    [
+                        -84.33846,
+                        34.093124,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "R4",
+                "styleUrl": "#line-FF0000-4000-nodesc",
+                "styleHash": "69145295",
+                "styleMapHash": {
+                    "normal": "#line-FF0000-4000-nodesc-normal",
+                    "highlight": "#line-FF0000-4000-nodesc-highlight"
+                },
+                "stroke": "#ff0000",
+                "stroke-opacity": 1,
+                "stroke-width": 4
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.339656,
+                    34.080152,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Broadwell Rd & Beragio Pl",
+                "styleUrl": "#icon-1899-DB4436-nodesc",
+                "styleHash": "-2ec27268",
+                "styleMapHash": {
+                    "normal": "#icon-1899-DB4436-nodesc-normal",
+                    "highlight": "#icon-1899-DB4436-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.33954,
+                    34.083373,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Broadwell Rd & Stuart Dr",
+                "styleUrl": "#icon-1899-DB4436-nodesc",
+                "styleHash": "-2ec27268",
+                "styleMapHash": {
+                    "normal": "#icon-1899-DB4436-nodesc-normal",
+                    "highlight": "#icon-1899-DB4436-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.339516,
+                    34.087275,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Broadwell Rd & Dorsland Way",
+                "styleUrl": "#icon-1899-DB4436-nodesc",
+                "styleHash": "-2ec27268",
+                "styleMapHash": {
+                    "normal": "#icon-1899-DB4436-nodesc-normal",
+                    "highlight": "#icon-1899-DB4436-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -84.350224,
+                        34.091206,
+                        0
+                    ],
+                    [
+                        -84.350221,
+                        34.092478,
+                        0
+                    ],
+                    [
+                        -84.350006,
+                        34.093143,
+                        0
+                    ],
+                    [
+                        -84.349517,
+                        34.093749,
+                        0
+                    ],
+                    [
+                        -84.348362,
+                        34.093115,
+                        0
+                    ],
+                    [
+                        -84.347114,
+                        34.093037,
+                        0
+                    ],
+                    [
+                        -84.345241,
+                        34.093054,
+                        0
+                    ],
+                    [
+                        -84.344013,
+                        34.093039,
+                        0
+                    ],
+                    [
+                        -84.343394,
+                        34.09298,
+                        0
+                    ],
+                    [
+                        -84.342877,
+                        34.092813,
+                        0
+                    ],
+                    [
+                        -84.342005,
+                        34.092179,
+                        0
+                    ],
+                    [
+                        -84.341545,
+                        34.092023,
+                        0
+                    ],
+                    [
+                        -84.340637,
+                        34.09183,
+                        0
+                    ],
+                    [
+                        -84.339462,
+                        34.091833,
+                        0
+                    ],
+                    [
+                        -84.339464,
+                        34.093359,
+                        0
+                    ],
+                    [
+                        -84.339449,
+                        34.093509,
+                        0
+                    ],
+                    [
+                        -84.339232,
+                        34.093547,
+                        0
+                    ],
+                    [
+                        -84.338695,
+                        34.093452,
+                        0
+                    ],
+                    [
+                        -84.338411,
+                        34.093317,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "R2",
+                "styleUrl": "#line-00F600-4000-nodesc",
+                "styleHash": "-180ea1ab",
+                "styleMapHash": {
+                    "normal": "#line-00F600-4000-nodesc-normal",
+                    "highlight": "#line-00F600-4000-nodesc-highlight"
+                },
+                "stroke": "#00f600",
+                "stroke-opacity": 1,
+                "stroke-width": 4
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -84.348999,
+                        34.089735,
+                        0
+                    ],
+                    [
+                        -84.348125,
+                        34.089752,
+                        0
+                    ],
+                    [
+                        -84.347921,
+                        34.090156,
+                        0
+                    ],
+                    [
+                        -84.347552,
+                        34.090283,
+                        0
+                    ],
+                    [
+                        -84.34672,
+                        34.09024,
+                        0
+                    ],
+                    [
+                        -84.345801,
+                        34.09015,
+                        0
+                    ],
+                    [
+                        -84.345566,
+                        34.090196,
+                        0
+                    ],
+                    [
+                        -84.345563,
+                        34.091153,
+                        0
+                    ],
+                    [
+                        -84.343469,
+                        34.091296,
+                        0
+                    ],
+                    [
+                        -84.341872,
+                        34.091357,
+                        0
+                    ],
+                    [
+                        -84.341499,
+                        34.091054,
+                        0
+                    ],
+                    [
+                        -84.3413199,
+                        34.0915227,
+                        0
+                    ],
+                    [
+                        -84.3407164,
+                        34.091789,
+                        0
+                    ],
+                    [
+                        -84.3401961,
+                        34.0917627,
+                        0
+                    ],
+                    [
+                        -84.3397406,
+                        34.0917545,
+                        0
+                    ],
+                    [
+                        -84.339506,
+                        34.091711,
+                        0
+                    ],
+                    [
+                        -84.339551,
+                        34.092308,
+                        0
+                    ],
+                    [
+                        -84.339562,
+                        34.09329,
+                        0
+                    ],
+                    [
+                        -84.339521,
+                        34.093678,
+                        0
+                    ],
+                    [
+                        -84.338965,
+                        34.093572,
+                        0
+                    ],
+                    [
+                        -84.338396,
+                        34.093434,
+                        0
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "R1",
+                "styleUrl": "#line-00F4E1-4000-nodesc",
+                "styleHash": "1552d7c9",
+                "styleMapHash": {
+                    "normal": "#line-00F4E1-4000-nodesc-normal",
+                    "highlight": "#line-00F4E1-4000-nodesc-highlight"
+                },
+                "stroke": "#00f4e1",
+                "stroke-opacity": 1,
+                "stroke-width": 4
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.349016,
+                    34.08973,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Lecoma Trace & Saybeck Way",
+                "styleUrl": "#icon-1899-DB4436-nodesc",
+                "styleHash": "-2ec27268",
+                "styleMapHash": {
+                    "normal": "#icon-1899-DB4436-nodesc-normal",
+                    "highlight": "#icon-1899-DB4436-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.345649,
+                    34.090087,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Branyan Trail & Tensas Trace",
+                "styleUrl": "#icon-1899-DB4436-nodesc",
+                "styleHash": "-2ec27268",
+                "styleMapHash": {
+                    "normal": "#icon-1899-DB4436-nodesc-normal",
+                    "highlight": "#icon-1899-DB4436-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.3434587,
+                    34.0912267,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Lecoma Trace & Itaska Walk",
+                "styleUrl": "#icon-1899-DB4436-nodesc",
+                "styleHash": "-2ec27268",
+                "styleMapHash": {
+                    "normal": "#icon-1899-DB4436-nodesc-normal",
+                    "highlight": "#icon-1899-DB4436-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.3400419,
+                    34.0917214,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Parkstead Ln & McFarlin Ln",
+                "styleUrl": "#icon-1899-DB4436-nodesc",
+                "styleHash": "-2ec27268",
+                "styleMapHash": {
+                    "normal": "#icon-1899-DB4436-nodesc-normal",
+                    "highlight": "#icon-1899-DB4436-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.350287,
+                    34.091172,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Sauls Pl & Lee St",
+                "styleUrl": "#icon-1899-DB4436-nodesc",
+                "styleHash": "-2ec27268",
+                "styleMapHash": {
+                    "normal": "#icon-1899-DB4436-nodesc-normal",
+                    "highlight": "#icon-1899-DB4436-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.349549,
+                    34.09373,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Sauls Pl & Nakomis Pl",
+                "styleUrl": "#icon-1899-DB4436-nodesc",
+                "styleHash": "-2ec27268",
+                "styleMapHash": {
+                    "normal": "#icon-1899-DB4436-nodesc-normal",
+                    "highlight": "#icon-1899-DB4436-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.34403,
+                    34.093045,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Heybridge Ln & McFarlin",
+                "styleUrl": "#icon-1899-DB4436-nodesc",
+                "styleHash": "-2ec27268",
+                "styleMapHash": {
+                    "normal": "#icon-1899-DB4436-nodesc-normal",
+                    "highlight": "#icon-1899-DB4436-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.34187,
+                    34.092101,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "McFarlin & Crapapple Cir",
+                "styleUrl": "#icon-1899-DB4436-nodesc",
+                "styleHash": "-2ec27268",
+                "styleMapHash": {
+                    "normal": "#icon-1899-DB4436-nodesc-normal",
+                    "highlight": "#icon-1899-DB4436-nodesc-highlight"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.34004,
+                    34.091801,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Parkstead Ln & McFarlin Ln",
+                "styleUrl": "#icon-1899-DB4436-nodesc",
+                "styleHash": "-2ec27268",
+                "styleMapHash": {
+                    "normal": "#icon-1899-DB4436-nodesc-normal",
+                    "highlight": "#icon-1899-DB4436-nodesc-highlight"
+                }
+            }
+        }
+    ]
+}

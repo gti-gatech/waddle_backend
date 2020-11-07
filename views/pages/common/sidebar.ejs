@@ -1,0 +1,109 @@
+<div class="inner-wrapper">
+    <div class="sidebar-left">
+        <div class="sidebar_logo">
+            <a href="/" class="sidebar_logo_lg"><img alt="logo" src="/images/logo.png"></a>
+            <a href="/" class="sidebar_logo_sm"><img alt="logo" src="/images/logo_small.png"></a>
+        </div>
+        <div class="sidebar_profile">
+            <div class="sidebar_profile_content">
+                <div class="text_info">
+                    <h4>Admin</h4>
+                </div>
+            </div>
+        </div>
+        <div class="nano">
+            <nav class="navbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a href="/" class="nav-link " id="dashboard">
+                            <span class="nav_icon nav_dash_icon"></span>
+                            <span class="name">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/admin/packet/parents/10/1" class="nav-link " id="parents">
+                            <span class="nav_icon nav_parent_icon"></span>
+                            <span class="name">Parents</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/admin/packet/students/10/1" class="nav-link " id="students">
+                            <span class="nav_icon nav_student_icon"></span>
+                            <span class="name">Students</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/admin/packet/trips/10/1" class="nav-link" id="trips">
+                            <span class="nav_icon nav_trip_icon"></span>
+                            <span class="name">Trip</span>
+                        </a>
+                    </li>
+                    <li id="dropDownLi" class="nav-item dropdown" onclick="DropdownToggle()">
+                        <a href="javascript:;" class="nav-link dropdown-toggle" data-toggle="dropdown"
+                            aria-expanded="false" id="navbarDropdown">
+                            <span class="nav_icon nav_upload_icon"></span>
+                            <span class="name">Upload Desk</span>
+                        </a>
+                        <ul class="dropdown-menu" id="dropDownUl">
+                            <li>
+                                <a href="/admin/packet/geomap/10/1" class="dropdown-item">Map KML</a>
+                            </li>
+                            <li>
+                                <a href="/admin/packet/emails/10/1" class="dropdown-item">Supervisor Email</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a href="/admin/view/tripdetail" class="nav-link">
+                            <span class="nav_icon nav_trip_detail_icon"></span>
+                            <span class="name">Trip Detail</span>
+                        </a>
+                    </li> -->
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+
+
+    <script>
+        var url = window.location.pathname;
+        var pathArr = url.split('/');
+        if (pathArr.length > 2) {
+            switch (pathArr[3]) {
+                case "students":
+                    document.getElementById("students").className = "nav-link active";
+                    break;
+                case "parents":
+                    document.getElementById("parents").className = "nav-link active";
+                    break;
+                case "trips":
+                    document.getElementById("trips").className = "nav-link active";
+                    break;
+                case "login":
+                    document.getElementById("dashboard").className = "nav-link active";
+                    break;
+            }
+        } else {
+            document.getElementById("dashboard").className = "nav-link active";
+        }
+
+
+
+        function DropdownToggle(){
+            var dropdownLi = document.getElementById('dropDownLi');
+            var dropdownUl = document.getElementById('dropDownUl');
+
+            switch(dropdownLi.className){
+                case "nav-item dropdown":
+                    dropdownLi.className = "nav-item dropdown show";
+                    dropdownUl.className = "dropdown-menu show";
+                    break;
+
+                case "nav-item dropdown show":
+                    dropdownLi.className = "nav-item dropdown";
+                    dropdownUl.className = "dropdown-menu";
+                    break;
+            }
+        }
+    </script>

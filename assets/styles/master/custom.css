@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;1,400&display=swap');
+
+body { padding: 0; margin:0; font-family: 'Raleway', sans-serif;font-weight: normal; background:none}
+*, ::after, ::before {
+	box-sizing: border-box;
+}
+.waddle_logo img {
+	max-width: 280px;
+	margin: auto;
+}
+.change_password_inner {
+	max-width: 480px;
+	margin: auto;
+	text-align: center;
+}
+.change_password_inner h3 {
+	font-size: 28px;
+	font-family: Raleway,sans-serif;
+	margin: 42px 0 30px;
+	font-weight: 700;
+}
+.form-input{
+	margin: 18px 0px;
+
+}
+.change_password {
+	position: absolute;
+	top: 40%;
+	transform: translateY(-50%);
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.form-input .form-controls {
+    background: #fff;
+    border: solid 1px #c5c5c5;
+    box-shadow: none;
+    color: #333;
+    font-size: 15px;
+    padding: 7px 12px 6px 42px;
+    height: 52px;
+    border-radius: 5px !important;
+    width: 100%;
+}
+.changes_btn {
+	border: 1px solid #f26627;
+	border-radius: 30px;
+	background: none;
+	padding: 0 30px 0 30px;
+	height: 46px;
+	line-height: 44px;
+	font-size: 18px;
+	color: #f26627;
+	transition: all ease 0.3s;
+	cursor: pointer;
+	font-weight: normal;
+}
+.changes_btn:hover{ background: #f26627;  color: #fff;}
+.action-btn {
+	margin-top: 30px;
+
+}
+.change_password_inner {
+	box-shadow: 0 3px 18px 0 rgba(0, 0, 0, .1);
+	border-radius: 10px;
+	padding: 46px 32px;
+	margin: auto;
+}
+.input-icon {
+	position: relative;
+}
+.form-input .input-icon .fa.fa-lock {
+	position: absolute;
+	left: 14px;
+	top: 16px;
+	font-size: 19px;
+	color: #A4A4A4;
+}
+
+.copyright_line {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: center;
+	padding: 6px 0;
+}
+.successfully_change span {
+	font-size: 90px;
+	margin: 12px 0 12px 0;
+	display: block;
+	color: #22ae22;
+	line-height: 80px;
+}
+.successfully_change h6 {
+	font-size: 22px;
+	font-weight: normal;
+	margin: 0 0;
+	color: #0e910e;
+}

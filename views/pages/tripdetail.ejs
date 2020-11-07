@@ -1,0 +1,98 @@
+<!--
+This is your default homepage.
+For more information, see:
+• https://sailsjs.com/documentation/concepts/views
+• https://sailsjs.com/documentation/concepts/routes
+-->
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+
+<script type="text/javascript">
+    setTimeout(function sunrise() {
+        document.getElementsByClassName('header')[0].style.backgroundColor = '#118798';
+    }, 0);
+</script>
+
+<% const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]; %>
+
+
+<% include common/header.ejs %>
+<% include common/sidebar.ejs %>
+
+<section class="content-body">
+    <header class="page-header">
+        <div class="page_title">
+            <h2>
+                <span class="heading_icon">
+                    <img alt="" src="/images/heading_icon_trip_detail.png">
+                </span> Trip Details
+            </h2>
+        </div>
+        <nav aria-label="breadcrumb" class="nav_breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page">Trip Details</li>
+            </ol>
+        </nav>
+    </header>
+    <div class="page_content">
+        <div class="row">
+            <div class="col-md-12">
+                <section class="panel">
+                    <div class="panel-heading">
+                        <h2 class="panel-title"><%= "Trip Status: " + tripStatus.status %></h2>
+                    </div>
+                    <div class="panel-body p-0">
+
+
+                    </div>
+
+                    <!-- <img alt="" src="/images/trip_map.png" class="w-100"> -->
+                </section>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <section class="panel">
+                    <div class="panel-heading">
+                        <h2 class="panel-title">Trip Details</h2>
+                    </div>
+                    <div class="panel-body p-0">
+                   
+                        <div class="table-responsive common_table">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Date</th>
+                                        <th>Student Name</th>
+                                        <th>Status</th>
+                                        <th>Parent Name</th>
+                                        <th>Stop Location</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <% for(var i=0; i<parentsData.length; i++) { var date = new Date(tripStatus.dueOn); %>
+                                    <tr>
+                                        <td><%= i+1 %></td>
+                                        <td><%=  date.getDate() + " " + monthNames[date.getMonth()] + " " + date.getFullYear()  %></td>
+                                        <td><%= parentsData[i].studentName %></td>
+                                        <td><%= parentsData[i].status %></td>
+                                        <td><%= parentsData[i].parentName %></td>
+                                        <td><%= parentsData[i].stopName %></td>
+                                    </tr>
+                                <% } %>
+                                </tbody>
+                            </table>
+
+
+                        </div>
+                       
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+
+</div>
+</div>

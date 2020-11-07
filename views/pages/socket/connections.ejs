@@ -1,0 +1,127 @@
+<html>
+
+<head>
+    <title>IAmSafeNow</title>
+    <style>
+        code {
+            padding: 40px;
+            display: block;
+            background-color: #EFEFEF;
+            word-wrap: none;
+            color: black;
+        }
+    </style>
+</head>
+
+
+<body style="padding: 2%; background-color: white;">
+    </br>
+    <h1>Connections & Descriptions for Socket Controller</h1>
+    </br>
+    <h2>Connection Details</h2>
+    <h4>Socket Url: http://34.209.64.150:1337</h4>
+    <h5>transports: ['websocket'] (Not polling, passed on connection string)</h5></br>
+
+    <div>
+        <p><strong>CASE: UPDATE LOCATION</strong> <button onclick="updateLocation()">Update Location</button></p></br>
+        <p><strong>Emit url:</strong> /socket/parents/updateLocation </p>
+        <p><strong>Parameters:</strong> {</br>
+            parentId: "39d4044f-7e89-4893-bd7b-089fad730746",</br>
+            longitude: "-84.350287",</br>
+            latitude: "34.091172"</br>
+            }</p>
+        <p><strong>Code Usage:</strong></p>
+        <code>
+            io.socket.post('/socket/parents/updateLocation', {</br>
+                parentId: "39d4044f-7e89-4893-bd7b-089fad730746",</br>
+                longitude: "-84.350287",</br>
+                latitude: "34.091172"</br>
+            }, function (resData, jwRes) {</br>
+                jwRes.statusCode; // => 200</br>
+            });
+            </code>
+    </div></br>
+
+
+<div>
+    <p><strong>CASE: JOIN TRIP SOCKET</strong> <button onclick="joinTripSocket()">Join trip socket</button></p></br>
+    <p><strong>Emit url:</strong> /socket/trip/join </p>
+    <p><strong>Parameters:</strong> {</br>
+            "tripId": 126,</br>
+            }</p>
+    <p><strong>Code Usage:</strong></p>
+    <code>
+        io.socket.post('/socket/trip/join', {</br>
+            "tripId": 126,</br>
+            }, function (resData, jwRes) {</br>
+            jwRes.statusCode; // => 200</br>
+        });
+        </code>
+</div></br>
+
+
+    <div>
+        <p><strong>CASE: MARK STUDENT PRESENT</strong> <button onclick="markPresent()">Mark student present</button></p></br>
+        <p><strong>Emit url:</strong> /socket/trip/markPresent </p>
+        <p><strong>Parameters:</strong> {</br>
+                "studentId": 106,</br>
+                "tripId": 126,</br>
+                }</p>
+        <p><strong>Code Usage:</strong></p>
+        <code>
+            io.socket.post('/socket/trip/markPresent', {</br>
+                "studentId": 106,</br>
+                "tripId": 126,</br>
+                }, function (resData, jwRes) {</br>
+                jwRes.statusCode; // => 200</br>
+            });
+            </code>
+    </div>
+
+    <script src="/dependencies/sails.io.js"></script>
+    <script>
+        var socket = io("http://34.209.64.150:1337", {
+            transports: ['websocket'] // or [ 'websocket', 'polling' ], which is the same thing
+        });
+       io.socket.on('connect', function(){
+           console.log("connected");
+       } )
+
+
+       io.socket.on('message', function (data){
+          console.log(data);
+        });
+
+        function updateLocation() {
+            io.socket.post('/socket/parents/updateLocation', {
+                parentId: "39d4044f-7e89-4893-bd7b-089fad730746",
+                longitude: "-84.350287",
+                latitude: "34.091172"
+            }, function (resData, jwRes) {
+                jwRes.statusCode; // => 200
+                console.log(resData);
+            });
+        }
+
+        function markPresent(){
+            io.socket.post('/socket/trip/markPresent', {
+            "studentId": 106,
+            "tripId": 126,
+            }, function (resData, jwRes) {
+                jwRes.statusCode; // => 200
+                console.log(resData);
+            });
+        }
+
+        function joinTripSocket(){
+            io.socket.post('/socket/trip/join',{
+                tripId: 126
+            }, function (resData, jwRes) {
+                jwRes.statusCode; // => 200
+                console.log(resData);
+            });
+        }
+    </script>
+</body>
+
+</html>
